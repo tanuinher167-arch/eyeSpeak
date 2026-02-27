@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background: #111;
+    color: white;
+}
+
+video {
+    width: 400px;
+    border: 3px solid cyan;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+#keyboard {
+    margin-top: 20px;
+}
+
+.key {
+    display: inline-block;
+    padding: 15px;
+    margin: 5px;
+    background: #333;
+    cursor: pointer;
+}
+
+.key:hover {
+    background: cyan;
+    color: black;
+}
